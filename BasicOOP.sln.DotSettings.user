@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=24c55fdf_002D24f6_002D4218_002Daa75_002Dffe5013434e6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestInsertAndCount" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::23036C35-5B0E-4747-8106-87B513526FE8::net7.0::DataStructureTest.LinkedListTest.TestInsertAndCount&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=846785c5_002D9107_002D4082_002D9606_002Da667d7ad8b93/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestObjectDeclarationAndInitialization" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AA42E21C-F8F4-4429-ADC9-83FE8CF32627::net7.0::DomainTest.PointTest.TestObjectDeclarationAndInitialization&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::23036C35-5B0E-4747-8106-87B513526FE8::net7.0::DataStructureTest.LinkedListTest.TestInsertAndCount&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
