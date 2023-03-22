@@ -1,7 +1,6 @@
-global using NUnit.Framework;
-using Geometry;
+﻿using Geometry;
 
-namespace DomainTest;
+namespace GeometryTest;
 
 public class PointTest
 {
@@ -45,21 +44,21 @@ public class PointTest
         var p6 = p5;
         Assert.That(p6, Is.SameAs(p5));
         Assert.That(p6, Is.Not.SameAs(p4));
-        Assert.True(p6 == p5);
+        Assert.True(Equals(p6, p5));
         
         // Wertegleichheit
         var p7 = new Point() { X = 34, Y = 2 };
         Assert.That(p7, Is.EqualTo(p5));
         Assert.True(p7.Equals(p5));
 
-        ATuple p8 = new Point(6, 8);
+        var p8 = new Point(6, 8);
         Assert.That(p8.X, Is.EqualTo(6));
         Assert.That(p8.Y, Is.EqualTo(8));
         
     }
 
     [Test]
-    public void TestObjectEqulity()
+    public void TestObjectEquality()
     {
         
     }

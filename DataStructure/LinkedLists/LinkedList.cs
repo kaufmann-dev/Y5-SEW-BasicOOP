@@ -51,11 +51,11 @@ public class LinkedList<T>
     
     public void Delete(T data)
     {
-        if(_root.Data.Next() is null)
+        if(_root.Next is null)
         {
             return;
         }
-        Delete(_root, _root.Next.Data(), data);
+        Delete(_root, _root.Next, data);
     }
     private void Delete(Node<T> previous, Node<T> current, T data)
     {

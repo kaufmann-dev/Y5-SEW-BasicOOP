@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>AernauticaUnittest</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Geometry\Geometry.csproj" />
+      <ProjectReference Include="..\Aernautica\Aernautica.csproj" />
     </ItemGroup>
 
 </Project>

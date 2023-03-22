@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalUI", "TerminalUI\TerminalUI.csproj", "{FBD5DF45-2C57-431A-886F-A5E2912D5150}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainSim", "TrainSim\TrainSim.csproj", "{4AF0F4DB-68D9-40F4-A382-7C84244FB10E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{248E7EBE-3842-4B99-B260-E3406E2A28CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTest", "DomainTest\DomainTest.csproj", "{AA42E21C-F8F4-4429-ADC9-83FE8CF32627}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTest", "GeometryTest\GeometryTest.csproj", "{AA42E21C-F8F4-4429-ADC9-83FE8CF32627}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aernautica", "Aernautica\Aernautica.csproj", "{92C4124F-31AA-4B7D-B91E-A9C6CDCCE2E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AernauticaUnittest", "AernauticaUnittest\AernauticaUnittest.csproj", "{C521D067-5085-4656-822C-5C0D30139DBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AernauticaTest", "AernauticaTest\AernauticaTest.csproj", "{C521D067-5085-4656-822C-5C0D30139DBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{91611D63-3BDE-403D-AA06-E3E54478B7DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureTest", "DataStructureTest\DataStructureTest.csproj", "{23036C35-5B0E-4747-8106-87B513526FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureTest", "CreatureTest\CreatureTest.csproj", "{59959943-898B-4CD6-AF08-5C6540BE3EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creatures", "Creatures\Creatures.csproj", "{861F3E79-349F-49B4-810B-285B13EC0A67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,14 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FBD5DF45-2C57-431A-886F-A5E2912D5150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBD5DF45-2C57-431A-886F-A5E2912D5150}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBD5DF45-2C57-431A-886F-A5E2912D5150}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FBD5DF45-2C57-431A-886F-A5E2912D5150}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AF0F4DB-68D9-40F4-A382-7C84244FB10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AF0F4DB-68D9-40F4-A382-7C84244FB10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AF0F4DB-68D9-40F4-A382-7C84244FB10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AF0F4DB-68D9-40F4-A382-7C84244FB10E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{248E7EBE-3842-4B99-B260-E3406E2A28CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{248E7EBE-3842-4B99-B260-E3406E2A28CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248E7EBE-3842-4B99-B260-E3406E2A28CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,5 +46,13 @@ Global
 		{23036C35-5B0E-4747-8106-87B513526FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23036C35-5B0E-4747-8106-87B513526FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23036C35-5B0E-4747-8106-87B513526FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59959943-898B-4CD6-AF08-5C6540BE3EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59959943-898B-4CD6-AF08-5C6540BE3EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59959943-898B-4CD6-AF08-5C6540BE3EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59959943-898B-4CD6-AF08-5C6540BE3EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861F3E79-349F-49B4-810B-285B13EC0A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861F3E79-349F-49B4-810B-285B13EC0A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861F3E79-349F-49B4-810B-285B13EC0A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861F3E79-349F-49B4-810B-285B13EC0A67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

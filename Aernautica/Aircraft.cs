@@ -2,7 +2,8 @@
 
 public class Aircraft
 {
-
+    
+    
     public Dictionary<string, Weapon> Weapons = new();
 
     public int Structure { get; init; }
@@ -27,6 +28,12 @@ public class Aircraft
 
     public class AircraftBuilder
     {
+        private string _name;
+        public AircraftBuilder SetName(string name)
+        {
+            _name = name;
+            return this;
+        }
         public AircraftBuilder AddWeapon(Weapon weapon, string value)
         {
             _weapons[value] = weapon;

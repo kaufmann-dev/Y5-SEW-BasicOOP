@@ -17,8 +17,8 @@ public class AircraftFactory : IAircraftFactory
             .SetMinSpeed(2)
             .SetMaxSpeed(6)
             .SetHandling(3)
-            .AddWeapon(weaponFacotry.CreateQuadAutoCannon())
-            .AddWeapon(weaponFacotry.CreateTwinLasCannon());
+            .AddWeapon(weaponFacotry.CreateQuadAutoCannon(), "quadautocannon")
+            .AddWeapon(weaponFacotry.CreateTwinLasCannon(), "twinlascannon");
 
         return builder.Build();
     }

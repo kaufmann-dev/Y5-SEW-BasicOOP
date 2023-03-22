@@ -1,3 +1,5 @@
+using NUnit.Framework;
+
 namespace AernauticaUnittest;
 
 public class Tests
@@ -17,6 +19,7 @@ public class Tests
         Assert.That(factory, Is.SameAs(factory2));
     }
     
+    [Test]
     public void TestQuadCannonCreation()
     {
         var factory = Aernautica.WeaponFactory.Instance;
