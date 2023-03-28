@@ -2,8 +2,6 @@
 
 public class Aircraft
 {
-    
-    
     public Dictionary<string, Weapon> Weapons = new();
 
     public int Structure { get; init; }
