@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatureTest", "CreatureTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creatures", "Creatures\Creatures.csproj", "{861F3E79-349F-49B4-810B-285B13EC0A67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{E77C8845-9FC0-464B-A52A-61FD90038DDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{861F3E79-349F-49B4-810B-285B13EC0A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861F3E79-349F-49B4-810B-285B13EC0A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861F3E79-349F-49B4-810B-285B13EC0A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77C8845-9FC0-464B-A52A-61FD90038DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77C8845-9FC0-464B-A52A-61FD90038DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77C8845-9FC0-464B-A52A-61FD90038DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77C8845-9FC0-464B-A52A-61FD90038DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

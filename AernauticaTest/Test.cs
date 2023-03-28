@@ -7,6 +7,7 @@ public class Tests
     [SetUp]
     public void Setup()
     {
+        
     }
 
     [Test]
@@ -28,6 +29,4 @@ public class Tests
         Assert.That(weapon.Name, Is.EqualTo("Quad Autocannon"));
         Assert.That(weapon.Damage, Is.EqualTo(4));
     }
-    
-    
 }

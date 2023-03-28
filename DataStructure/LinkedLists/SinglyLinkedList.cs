@@ -2,7 +2,7 @@
 
 namespace DataStructure.LinkedLists;
 
-public class LinkedList<T>
+public class SinglyLinkedList<T>
 {
     public Node<T>? _root;
 
@@ -37,6 +37,7 @@ public class LinkedList<T>
         }
         return Count(_root);
     }
+    
     private int Count([NotNull] Node<T> node)
     {
         if (node.Next is null)
@@ -57,6 +58,7 @@ public class LinkedList<T>
         }
         Delete(_root, _root.Next, data);
     }
+    
     private void Delete(Node<T> previous, Node<T> current, T data)
     {
         if (current.Data.Equals(data))

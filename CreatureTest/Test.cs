@@ -6,6 +6,7 @@ namespace CreatureTest;
 public class Tests {
     [SetUp]
     public void Setup() {
+        
     }
 
     [Test]
@@ -14,7 +15,5 @@ public class Tests {
         
         Assert.That(ork.Endurance, Is.EqualTo(10));
         Assert.That(ork.CombatSkill, Is.EqualTo(45));
-        
-        
     }
 }
